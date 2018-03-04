@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+</head>
+<body>
+<script>
+
+function makeLine(length) {
+  var line = "";
+  for (var j = 1; j <= length; j++) {
+    line += "* "
+  }
+ return line + "\n";
+}
+
+function buildTriangle(width){
+  var triangle=""; 
+  for (var i=1; i<=width; i++){
+    triangle += (makeLine(i));
+  }
+  return triangle;
+}
+buildTriangle(10); 
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+<script>
+
+var facebookProfile = {
+  name: "Marina Camacho",
+  friends: 325,
+  messages: ["I like Food", "I like travel", "I like Technologies "],
+  postMessage(message) {
+    facebookProfile.messages.push(message); 
+  }, 
+  deleteMessage(index) {
+    facebookProfile.messages.splice(index,1);  
+  }, 
+  addFriend() {
+    facebookProfile.friends += 1; 
+  },
+  removeFriend() {
+   facebookProfile.friends = facebookProfile.friends -1; 
+  }, 
+}; 
+
+facebookProfile.removeFriend();
+facebookProfile.friends;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+</head>
+<body>
+<script>
+
+
+var shirtWidth= prompt("Please enter your width");
+var shirtLength= prompt("Please enter your Lenght");
+var shirtSleeve = prompt("Please enter your Sleeve");
+
+if ((shirtWidth >= 18 && shirtWidth < 20) && (shirtLength >= 28 && shirtLength < 29) && (shirtSleeve >= 8.13 && shirtSleeve < 8.38)) {
+   alert("S"); }
+else if ((shirtWidth >= 20 && shirtWidth < 22) && (shirtLength >= 29 && shirtLength< 30) && (shirtSleeve >= 8.38 && shirtSleeve < 8.63)){
+   alert("M");}
+else if ((shirtWidth >= 22 && shirtWidth < 24) && (shirtLength >= 30 && shirtLength< 31) && (shirtSleeve >= 8.63 && shirtSleeve < 8.88)){
+  alert("L");}
+else if ((shirtWidth >= 24 && shirtWidth < 26) && (shirtLength >= 31 && shirtLength< 33) && (shirtSleeve >= 8.88 && shirtSleeve < 9.63)){
+   alert("XL");}
+else if ((shirtWidth >= 26 && shirtWidth < 28) && (shirtLength >= 33 && shirtLength< 34) && (shirtSleeve >= 9.63 && shirtSleeve < 10.13)){
+   alert("2XL");}
+else if ((shirtWidth >= 28) && (shirtLength >= 34 ) && (shirtSleeve >= 10.13 )){
+   alert("3XL");}
+else {
+   alert("N/A");
+}
+</script>
+
+</body>
+</html>

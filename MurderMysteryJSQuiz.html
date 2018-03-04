@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+</head>
+<body>
+<script>
+var room = "billiards room";
+var suspect = "Mrs. Sparr";
+
+var weapon = "";
+var solved = false;
+
+if (room === "gallery") {
+    weapon = "trophy";
+      if (suspect === "Ms. Van Cleve") {
+      solved = true; 
+    }
+} else if (room === "ballroom") {
+    weapon = "poison"; 
+        if (suspect === "Mr. Kalehoff") {
+        solved = true;
+        }
+} else if (room === "billiards room") {
+    weapon = "pool stick";
+        if (suspect === "Mrs. Sparr") {
+        solved = true;
+        }
+} else {
+    weapon = "knife";
+      if (suspect === "Mr. Parkes") {
+      solved = true;
+      }
+}
+</script>
+
+</body>
+</html>
