@@ -8,6 +8,7 @@ Javascript Exercices File
 1. Loops 
 1. Arreglos 
 1. Objetos 
+1. DOM
 
 
 ##### Eng
@@ -18,3 +19,4 @@ Javascript Exercices File
 1. Loops 
 1. Arrays
 1. Objects
+1. DOM
