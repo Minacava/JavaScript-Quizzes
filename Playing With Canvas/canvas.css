@@ -1,0 +1,14 @@
+
+.texto {
+    background: -webkit-linear-gradient(indigo,green);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+    text-align: center;
+  }
+p{
+    color: burlywood;
+}
+div{
+    text-align: center;
+}
